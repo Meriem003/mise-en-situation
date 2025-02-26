@@ -21,9 +21,9 @@
             <tbody>
             @foreach ($articles as $article)
             <tr>
-                <td>{{ $artical->name}}</td>
-                <td>{{ $artical->desc}}</td>
-                <td>{{ $artical->price}}</td>
+                <td>{{ $article->name}}</td>
+                <td>{{ $article->desc}}</td>
+                <td>{{ $article->price}}</td>
                 <td>
                     <button>delete</button>
                 </td>
